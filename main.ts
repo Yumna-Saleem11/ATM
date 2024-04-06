@@ -47,7 +47,7 @@ if (operationAns.operation === "withdraw") {
     }     
 
 } else if (operationAns.operation === "check balance") {
-    console.log("your balance is:" + myBalance)
+    console.log("your current balance is:" + myBalance)
 }
 if (operationAns.operation === "fast cash") {
     let cash = await inquirer.prompt(
